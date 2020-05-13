@@ -1,9 +1,28 @@
 .book {
   border-collapse: collapse;
+  width: 300px;
 }
 
 .book th,
 .book td {
   border: solid 1px;
   padding: 1px 15px;
+}
+
+.entry {
+  margin-top: 20px;
+  width: 300px;
+}
+
+.entry input[type='submit'] {
+  width: 100px;
+  font-size: 120%;
+}
+
+.entry label {
+  margin-left: 40px;
+}
+
+.entry div {
+  margin-top: 5px;
 }

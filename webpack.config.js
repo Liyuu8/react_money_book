@@ -6,7 +6,7 @@ const publicDir = path.join(__dirname, '/public');
 
 module.exports = {
   entry: {
-    app: './src/index.js',
+    app: './src/MoneyBook.js',
   },
   output: {
     path: publicDir + '/js',
